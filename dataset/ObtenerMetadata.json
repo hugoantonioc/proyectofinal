@@ -1,0 +1,23 @@
+{
+	"name": "ObtenerMetadata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CONEXION_ADLS_CON_DATAFACTORY",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "input",
+				"fileSystem": "proyectofinal"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
