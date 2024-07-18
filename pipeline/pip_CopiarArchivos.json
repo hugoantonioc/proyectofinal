@@ -14,9 +14,10 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
+				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "ObtenerMetadata",
+						"referenceName": "Metadata",
 						"type": "DatasetReference"
 					},
 					"fieldList": [
